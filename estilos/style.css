@@ -120,18 +120,7 @@ body {
   margin-top: 50px;
 }
 
-.inputs-1 input {
-  padding-left: 100px;
-  width: 300px;
-  margin: 10px 0 50px 0;
-  padding: 10px;
-  border: 0px;
-  border-bottom: 2px solid red;
-  outline: none;
-  background-color: transparent;
-}
-
-.inputs-2 input {
+.inputs input {
   padding-left: 100px;
   width: 300px;
   margin: 10px 0 50px 0;
