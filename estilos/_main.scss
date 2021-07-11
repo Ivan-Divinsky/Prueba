@@ -156,12 +156,12 @@ body {
 
 .inputs {
 
+  margin-top: 50px;
 
   input {
     padding-left: 100px;
-    @include sizes (0px, 300px);
     width: 300px;
-    margin: 10px 0 50px 0;
+    margin: 10px 0 10px 0;
     padding: 10px;
     border: 0px;
     border-bottom: 2px solid black;
@@ -195,7 +195,6 @@ body {
     background-color: transparent;
     height: 150px;
     outline: none;
-
   }
 
 }
