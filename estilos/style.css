@@ -87,6 +87,17 @@ body {
   width: 50%;
 }
 
+@media (max-width: 620px) {
+  .fundadores {
+    color: black;
+    margin-bottom: 6%;
+    margin-top: 6%;
+  }
+  .fundadores img {
+    width: 100%;
+  }
+}
+
 /* ---- Contacto ---- */
 .ContactoTitulo {
   display: -webkit-box;
@@ -258,6 +269,17 @@ footer {
   height: 250px;
   text-align: center;
   margin-top: 0px;
+}
+
+@media (max-width: 620px) {
+  .preFooter {
+    color: black;
+    margin-bottom: 6%;
+    margin-top: 6%;
+  }
+  .preFooter img {
+    width: 50%;
+  }
 }
 
 .logoFooter {
