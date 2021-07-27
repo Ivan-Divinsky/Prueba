@@ -44,13 +44,17 @@ body {
 }
 
 /*---- Titulo de paginas ----*/
+.containerBackground {
+  background-image: url(/img/fondoBien2.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 .tituloPagina {
-  color: orangered;
   font-size: large;
-  background-color: RGB(243, 41, 53);
   color: RGB(255, 255, 242);
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 19%;
+  padding-bottom: 19%;
   padding-left: 0px;
   padding-right: 0px;
   margin-left: 0px;
@@ -59,17 +63,27 @@ body {
 
 /*---- Index ----*/
 .barriosDisponibles {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
-.index_contenedor {
+.indexContenedor {
   padding-left: 0%;
   padding-right: 0%;
 }
 
+.cardContainer {
+  padding-left: 26%;
+}
+
+@media (max-width: 620px) {
+  .cardContainer {
+    margin-left: 0%;
+  }
+}
+
 .imagencard {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .imagencard img {
@@ -259,32 +273,39 @@ body {
 
 /*---- Footer ----*/
 footer {
-  background-color: black;
+  background-color: RGB(32, 32, 32);
   width: 100%;
-  height: 70px;
+  height: 30px;
 }
 
 .preFooter {
   background-color: RGB(32, 32, 32);
-  height: 250px;
+  height: 200px;
   text-align: center;
   margin-top: 0px;
 }
 
+.backgroundLogo {
+  background-color: RGB(32, 32, 32);
+}
+
 @media (max-width: 620px) {
   .preFooter {
-    color: black;
+    color: RGB(32, 32, 32);
+    background-color: RGB(32, 32, 32);
     margin-bottom: 6%;
     margin-top: 6%;
   }
   .preFooter img {
-    width: 50%;
+    width: 35%;
+    background-color: RGB(32, 32, 32);
   }
 }
 
 .logoFooter {
   width: 10%;
   margin: 100px;
+  background-color: RGB(32, 32, 32);
 }
 
 .pFooter {
