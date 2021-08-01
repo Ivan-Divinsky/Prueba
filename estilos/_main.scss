@@ -66,6 +66,46 @@ body {
 
 }
 
+@media (max-width: 620px) {
+
+  .containerBackground {
+
+    background-image: none;
+    background-color: RGB(243, 41, 53);
+  }
+
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-width: 100%;
+  min-height: 50%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+@media (max-width: 620px) {
+
+  .content {
+
+    bottom: 650px;
+
+  }
+
+}
+
+
 .tituloPagina {
   font-size: large;
   color: RGB(255, 255, 242);
@@ -102,7 +142,7 @@ body {
 
   .cardContainer {
 
-    margin-left: 0%;
+    padding-left: 5%;
 
   }
 
@@ -122,11 +162,66 @@ body {
 
 }
 
+/* #fff */
+
+.uniteContainer {
+
+  padding-top: 5%;
+
+}
+
+.unite {
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.89)), url(/img/backgroundSumate.jpg);
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  background-position: cover;
+  background-size: cover;
+
+  h3 {
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+  }
+
+  button {
+
+    color: white;
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid black;
+    background-color: black;
+    transition: .5s;
+
+  }
+
+  button:hover {
+
+    color: black;
+    background-color: #fff;
+
+  }
+
+}
+
+.fundadoresBackground {
+
+  background-color: #fff;
+
+}
+
 .fundadores {
+
 
   color: black;
   margin-bottom: 6%;
   margin-top: 6%;
+
 
   img {
 
@@ -251,6 +346,51 @@ body {
     border: 0px;
     border: 2px solid black;
     background-color: transparent;
+    transition: 0.5s;
+
+  }
+
+  button {
+
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid black;
+    background-color: white;
+    transition: 0.5s;
+
+  }
+
+}
+
+.enviar:hover {
+
+  input {
+    color: white;
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid white;
+    background-color: black;
+    transition: 0.5s;
+
+  }
+
+  button {
+
+    color: white;
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid white;
+    background-color: black;
+    transition: 0.5s;
 
   }
 
@@ -272,8 +412,86 @@ body {
 
 }
 
+.backgroundMisionHistoriaVision {
+
+  background-color: #fff
+}
+
+.misionHistoriaVision1 {
+
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  max-width: 100%;
+
+  p {
+
+    margin-right: 20%;
+    margin-left: 20%;
+
+  }
+
+}
+
+
+
+.misionHistoriaVision2 {
+
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  max-width: 100%;
+
+  p {
+
+    margin-right: 20%;
+    margin-left: 20%;
+
+  }
+
+}
+
+
+.video {
+
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+  iframe {
+
+    width: 60%;
+    height: 650px;
+
+  }
+
+}
+
+.misionHistoriaVision3 {
+
+  color: black;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  max-width: 100%;
+
+  p {
+
+    margin-right: 20%;
+    margin-left: 20%;
+
+  }
+
+
+
+}
+
 
 /*---- Alquilar y Comprar ----*/
+
+.comprarBackground {
+
+  background-color: #fff;
+
+}
 
 
 .comprarImagenes {
@@ -414,5 +632,22 @@ footer {
     height: 450px;
 
   }
+
+}
+
+
+/*---- 404 ----*/
+
+.background404 {
+
+  background-color: RGB(243, 41, 53);
+
+}
+
+.p404 {
+
+  color: white;
+  margin-bottom: 6%;
+  margin-top: 6%;
 
 }
