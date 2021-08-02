@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,19 +15,15 @@ body {
   background-color: black;
   color: white;
 }
-
 .bg-custom a {
   color: white;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
 .bg-custom li a {
   color: white;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 .bg-custom li a:hover {
   color: RGB(243, 41, 53);
 }
@@ -37,7 +32,6 @@ body {
   outline: none;
   width: 100%;
 }
-
 .burger i {
   outline: none;
   width: 100%;
@@ -56,7 +50,6 @@ body {
     background-color: RGB(243, 41, 53);
   }
 }
-
 #myVideo {
   right: 0;
   bottom: 0;
@@ -81,7 +74,6 @@ body {
     bottom: 650px;
   }
 }
-
 .tituloPagina {
   font-size: large;
   color: RGB(255, 255, 242);
@@ -112,12 +104,10 @@ body {
     padding-left: 5%;
   }
 }
-
 .imagencard {
   max-width: 100%;
   max-height: 100%;
 }
-
 .imagencard img {
   width: 100%;
   height: 10%;
@@ -129,7 +119,6 @@ body {
 }
 
 .unite {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.075)), to(rgba(0, 0, 0, 0.89))), url(../img/backgroundSumate.jpg);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.89)), url(../img/backgroundSumate.jpg);
   color: white;
   padding-top: 2%;
@@ -137,12 +126,10 @@ body {
   background-position: cover;
   background-size: cover;
 }
-
 .unite h3 {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-
 .unite button {
   color: white;
   padding-left: 100px;
@@ -152,10 +139,8 @@ body {
   border: 0px;
   border: 2px solid black;
   background-color: black;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 .unite button:hover {
   color: black;
   background-color: #fff;
@@ -170,7 +155,6 @@ body {
   margin-bottom: 6%;
   margin-top: 6%;
 }
-
 .fundadores img {
   width: 50%;
 }
@@ -185,19 +169,11 @@ body {
     width: 100%;
   }
 }
-
 /* ---- Contacto ---- */
 .ContactoTitulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   color: RGB(243, 41, 53);
   background-color: RGB(243, 41, 53);
   color: RGB(255, 255, 242);
@@ -206,16 +182,9 @@ body {
 }
 
 .formulario {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -233,7 +202,6 @@ body {
 .inputs {
   margin-top: 50px;
 }
-
 .inputs input {
   padding-left: 100px;
   width: 300px;
@@ -244,7 +212,6 @@ body {
   outline: none;
   background-color: transparent;
 }
-
 .inputs select {
   padding-left: 100px;
   width: 300px;
@@ -274,10 +241,8 @@ body {
   border: 0px;
   border: 2px solid black;
   background-color: transparent;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .enviar button {
   padding-left: 100px;
   width: 300px;
@@ -286,7 +251,6 @@ body {
   border: 0px;
   border: 2px solid black;
   background-color: white;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -299,10 +263,8 @@ body {
   border: 0px;
   border: 2px solid white;
   background-color: black;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .enviar:hover button {
   color: white;
   padding-left: 100px;
@@ -312,22 +274,14 @@ body {
   border: 0px;
   border: 2px solid white;
   background-color: black;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* ---- Quienes Somos ---- */
 .tituloQuienes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   background-color: RGB(243, 41, 53);
   color: RGB(255, 255, 242);
   padding-top: 100px;
@@ -345,7 +299,6 @@ body {
   padding-bottom: 3%;
   max-width: 100%;
 }
-
 .misionHistoriaVision1 p {
   margin-right: 20%;
   margin-left: 20%;
@@ -357,7 +310,6 @@ body {
   padding-bottom: 3%;
   max-width: 100%;
 }
-
 .misionHistoriaVision2 p {
   margin-right: 20%;
   margin-left: 20%;
@@ -367,7 +319,6 @@ body {
   padding-top: 3%;
   padding-bottom: 5%;
 }
-
 .video iframe {
   width: 60%;
   height: 650px;
@@ -379,7 +330,6 @@ body {
   padding-bottom: 10%;
   max-width: 100%;
 }
-
 .misionHistoriaVision3 p {
   margin-right: 20%;
   margin-left: 20%;
@@ -398,12 +348,10 @@ body {
   padding-bottom: 0px;
   margin-top: 0px;
 }
-
 .alquilarImagenes img {
   width: 100%;
   height: 100%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transition: all 0.5s;
   border-radius: 1%;
 }
 
@@ -417,7 +365,6 @@ body {
 .botonesAlquilaryComprar {
   margin-bottom: 100px;
 }
-
 .botonesAlquilaryComprar button {
   border: none;
   border-radius: 15px;
@@ -425,15 +372,13 @@ body {
   color: RGB(255, 255, 242);
   width: 100%;
   height: 100%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 .botonesAlquilaryComprar a button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
+/* funca */
 .background-card {
   border: none;
   background: transparent;
@@ -469,7 +414,6 @@ footer {
     background-color: RGB(32, 32, 32);
   }
 }
-
 .logoFooter {
   width: 10%;
   margin: 100px;
@@ -484,7 +428,6 @@ footer {
   display: block;
   width: 100%;
 }
-
 .mapa iframe {
   display: block;
   width: 100%;
@@ -501,4 +444,5 @@ footer {
   margin-bottom: 6%;
   margin-top: 6%;
 }
+
 /*# sourceMappingURL=style.css.map */
