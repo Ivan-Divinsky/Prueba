@@ -480,6 +480,22 @@ body {
 
 }
 
+@media (max-width: 620px) {
+
+
+  .video {
+    iframe {
+
+      width: 90%;
+      height: 325px;
+
+    }
+  }
+}
+
+
+
+
 .misionHistoriaVision3 {
 
   color: black;
