@@ -412,10 +412,6 @@ body {
 }
 
 /*---- Alquilar y Comprar ----*/
-.comprarBackground {
-  background-color: #fff;
-}
-
 .comprarImagenes img {
   width: 10%;
 }
@@ -450,9 +446,10 @@ body {
   background-color: RGB(243, 41, 53);
   color: RGB(255, 255, 242);
   width: 100%;
-  height: 100%;
+  height: 20%;
   -webkit-transition: all .5s;
   transition: all .5s;
+  max-height: 20%;
 }
 
 .botonesAlquilaryComprar a button:hover {
@@ -463,7 +460,8 @@ body {
 /* funca */
 .background-card {
   border: none;
-  background: transparent;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 /*---- Footer ----*/
