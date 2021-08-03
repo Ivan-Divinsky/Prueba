@@ -95,12 +95,46 @@ body {
   z-index: 1;
 }
 
+
+
 @media (max-width: 620px) {
 
   .content {
-
+    padding: 0px;
     bottom: 650px;
+    font-size: 1px;
+  }
 
+
+
+}
+
+@media (width: 768px) {
+
+  .content {
+    padding: 0px;
+    bottom: 600px;
+    font-size: 1px;
+  }
+
+}
+
+@media (width: 1024px) {
+
+  .content {
+    padding: 0px;
+    bottom: 600px;
+    font-size: 1px;
+  }
+
+}
+
+@media (width: 1440px) {
+
+  .content {
+    padding: 0px;
+    bottom: 600px;
+    font-size: 1px;
   }
 
 }
