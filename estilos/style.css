@@ -485,9 +485,6 @@ footer {
 @media (max-width: 620px) {
   .preFooter {
     color: RGB(32, 32, 32);
-    background-color: RGB(32, 32, 32);
-    margin-bottom: 6%;
-    margin-top: 6%;
   }
   .preFooter img {
     width: 35%;
@@ -503,6 +500,16 @@ footer {
 
 .pFooter {
   color: whitesmoke;
+}
+
+.pFooter p {
+  padding-bottom: 0px;
+}
+
+@media (max-width: 620px) {
+  .pFooter p {
+    font-size: small;
+  }
 }
 
 .mapa {

@@ -626,9 +626,6 @@ footer {
   .preFooter {
 
     color: RGB(32, 32, 32);
-    background-color: RGB(32, 32, 32);
-    margin-bottom: 6%;
-    margin-top: 6%;
 
     img {
 
@@ -651,6 +648,28 @@ footer {
 .pFooter {
 
   color: whitesmoke;
+
+  p {
+
+    padding-bottom: 0px;
+
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  .pFooter {
+
+
+
+    p {
+
+      font-size: small;
+
+    }
+
+  }
 
 }
 
