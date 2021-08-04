@@ -66,58 +66,7 @@ body {
 
 }
 
-@media (max-width: 620px) {
 
-  .containerBackground {
-
-    background-image: none;
-    background-color: RGB(243, 41, 53);
-  }
-
-}
-
-
-@media (max-width: 620px) {
-
-  .content {
-    padding: 0px;
-    bottom: 650px;
-    font-size: 1px;
-  }
-
-
-
-}
-
-@media (width: 768px) {
-
-  .content {
-    padding: 0px;
-    bottom: 600px;
-    font-size: 1px;
-  }
-
-}
-
-@media (width: 1024px) {
-
-  .content {
-    padding: 0px;
-    bottom: 600px;
-    font-size: 1px;
-  }
-
-}
-
-@media (width: 1440px) {
-
-  .content {
-    padding: 0px;
-    bottom: 600px;
-    font-size: 1px;
-  }
-
-}
 
 
 .tituloPagina {
@@ -152,15 +101,7 @@ body {
 
 }
 
-@media (max-width: 620px) {
 
-  .cardContainer {
-
-    padding-left: 5%;
-
-  }
-
-}
 
 .imagencard {
 
@@ -245,23 +186,6 @@ body {
 
 }
 
-@media (max-width: 620px) {
-
-  .fundadores {
-
-    color: black;
-    margin-bottom: 6%;
-    margin-top: 6%;
-
-    img {
-
-      width: 100%;
-
-    }
-
-  }
-
-}
 
 
 /* ---- Contacto ---- */
@@ -480,18 +404,7 @@ body {
 
 }
 
-@media (max-width: 620px) {
 
-
-  .video {
-    iframe {
-
-      width: 90%;
-      height: 325px;
-
-    }
-  }
-}
 
 
 
@@ -617,21 +530,7 @@ footer {
 
 }
 
-@media (max-width: 620px) {
 
-  .preFooter {
-
-    color: RGB(32, 32, 32);
-
-    img {
-
-      width: 35%;
-      background-color: RGB(32, 32, 32);
-    }
-
-  }
-
-}
 
 .logoFooter {
 
@@ -653,21 +552,7 @@ footer {
 
 }
 
-@media (max-width: 620px) {
 
-  .pFooter {
-
-
-
-    p {
-
-      font-size: small;
-
-    }
-
-  }
-
-}
 
 .mapa {
 
@@ -700,3 +585,70 @@ footer {
   margin-top: 6%;
 
 }
+
+
+/*---- Medias ----*/
+
+@media (max-width: 620px) {
+
+  .containerBackground {
+
+    background-image: none;
+    background-color: RGB(243, 41, 53);
+  }
+
+  .cardContainer {
+
+    padding-left: 5%;
+
+  }
+
+  .fundadores {
+
+    color: black;
+    margin-bottom: 6%;
+    margin-top: 6%;
+
+    img {
+
+      width: 100%;
+
+    }
+
+  }
+
+  .video {
+    iframe {
+
+      width: 90%;
+      height: 325px;
+
+    }
+  }
+
+  .preFooter {
+
+    color: RGB(32, 32, 32);
+
+    img {
+
+      width: 35%;
+      background-color: RGB(32, 32, 32);
+    }
+
+  }
+
+  .pFooter {
+
+
+
+    p {
+
+      font-size: small;
+
+    }
+
+  }
+
+}
+
