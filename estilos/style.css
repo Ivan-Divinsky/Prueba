@@ -371,10 +371,10 @@ body {
   background-color: RGB(243, 41, 53);
   color: RGB(255, 255, 242);
   width: 100%;
-  height: 20%;
+  height: 24%;
   -webkit-transition: all .5s;
   transition: all .5s;
-  max-height: 20%;
+  max-height: 30%;
 }
 
 .botonesAlquilaryComprar a button:hover {
